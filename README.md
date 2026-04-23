@@ -7,9 +7,9 @@
 
 | Campo | Respuesta |
 | :--- | :--- |
-| **Nombre** | |
-| **Apellido** | |
-| **Legajo** | |
+| **Nombre** | Francisco |
+| **Apellido** | Lopez Garcia |
+| **Legajo** | 61284 |
 
 > **Fecha de entrega:** 28 de Abril de 2026
 
