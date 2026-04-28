@@ -1,13 +1,17 @@
 package com.bibliotech.service;
 
 import com.bibliotech.model.Recurso;
-import com.bibliotech.repository.LibroRepositorioImpl;
+import com.bibliotech.repository.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class LibroService {
-    private LibroRepositorioImpl repositorio = new LibroRepositorioImpl();
+    private final Repository<Recurso, String> repositorio;
+
+    public LibroService(Repository<Recurso, String> repositorio) {
+        this.repositorio = repositorio;
+    }
 
     public void registrar(Recurso libro) {
         repositorio.guardar(libro);
